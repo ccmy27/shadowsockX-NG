@@ -1,0 +1,11 @@
+{
+  "local_port" : 1086,
+  "plugin_opts" : "key=fisummer;crypt=salsa20;nocomp=false",
+  "method" : "chacha20-ietf-poly1305",
+  "server" : "66.42.98.24",
+  "local_address" : "127.0.0.1",
+  "plugin" : "plugins\/kcptun",
+  "timeout" : 60,
+  "server_port" : 4433,
+  "password" : "Xxryld0170test"
+}

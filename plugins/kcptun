@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Starting kcptun through wrapper script..."
+KCPTUN="$(dirname "${BASH_SOURCE[0]}")/../kcptun_v20170718/kcptun_client"
+"$KCPTUN" -r "${SS_REMOTE_HOST}:${SS_REMOTE_PORT}" -l "${SS_LOCAL_HOST}:${SS_LOCAL_PORT}" -c test.json 

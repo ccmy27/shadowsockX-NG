@@ -1,0 +1,6 @@
+{
+   "key":"fisummer",
+    "crypt":"salsa20",
+    "mode":"fast2",
+    "nocomp":false
+}
